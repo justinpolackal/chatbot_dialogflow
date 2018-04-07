@@ -1,0 +1,41 @@
+{
+  "id": "858b7f1e-fe76-4e9d-9449-6f7c04742cac",
+  "timestamp": "2018-04-07T15:03:25.546Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "nearest mexican restaurant",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "cuisine": "mexican",
+      "location": "nearby"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "e378e91c-8265-4084-b955-62fcba8623af",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 124,
+      "intentName": "restaurant_search"
+    },
+    "fulfillment": {
+      "speech": "You said: nearest mexican restaurant | I found Intent: restaurant_search| with parameters: location=nearby cuisine=mexican",
+      "source": "webhook",
+      "displayText": "You said: nearest mexican restaurant | I found Intent: restaurant_search| with parameters: location=nearby cuisine=mexican",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You said: nearest mexican restaurant | I found Intent: restaurant_search| with parameters: location=nearby cuisine=mexican"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "46c651bc-195b-4f62-8e31-8b4cb952038f"
+}

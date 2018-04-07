@@ -1,0 +1,19 @@
+Entity: cuisine
+
+Reference_Value : Synonyms
+
+chinese:chinese;cantonese;szechuan;
+mexican:mexican;
+indian:indian;
+vegetarian:vegetarian;veg;veggie;
+vegan:vegan;
+
+
+Entity: location
+
+Reference_Value : Synonyms
+
+town: town;down town;city center;
+nearby: nearby;nearest;closest;close by;vicinity;walkable;
+station:station;railway station;bus station;
+

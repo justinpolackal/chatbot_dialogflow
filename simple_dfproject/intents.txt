@@ -1,0 +1,73 @@
+Intents
+========
+
+[1]
+Intent Name: Default Welcome Intent
+Training Phrases (No parameters/entities)
+----------------
+hi
+hey
+hi there
+hey there
+hello
+hello there
+howdy
+
+[2]
+Intent Name: restaurant_search
+
+Training Phrases
+----------------
+1. Any vegetarian restaurants nearby?        
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: vegetarian
+
+    parameter name: location 
+    entity: @location  
+    resolved value: nearby
+
+2. feeling hungry. where is the nearest restaurant 
+    parameter name: location 
+    entity: @location 
+    resolved value: nearest
+
+3. I want mexican food 
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: mexican
+    
+4. where can i get Szechuan chicken?  
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: Szechuan
+
+5. Is there any place I can get cantonese style food? 
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: cantonese
+
+6. central indian restaurant 
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: indian
+
+7. anywhere in the west  
+    parameter name: location 
+    entity: @location 
+    resolved value: west
+
+8. search for restaurants  
+
+9. i am looking for an indian spot  
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: indian
+
+10. show me a mexican place in the centre 
+    parameter name: cuisine 
+    entity: @cuisine 
+    resolved value: mexican
+    
+    
+
